@@ -71,6 +71,7 @@
 }
 
 .showcase-section,
+.reviews-section,
 .process-section,
 .contact-band {
   padding: clamp(5.5rem, 10vw, 9rem) clamp(1.5rem, 7vw, 7.5rem);
@@ -120,6 +121,30 @@
   background: var(--cream);
 }
 
+.reviews-section {
+  display: grid;
+  gap: clamp(3rem, 6vw, 5rem);
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.reviews-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.reviews-copy {
+  display: grid;
+  gap: 1rem;
+  max-width: 760px;
+}
+
+.reviews-copy > p:last-child {
+  max-width: 650px;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -160,6 +185,12 @@
   .showcase-intro {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .reviews-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   .site-footer {
