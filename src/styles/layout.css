@@ -39,13 +39,12 @@
 
 .hero-section {
   position: relative;
-  min-height: 88vh;
+  min-height: 94svh;
   display: grid;
-  align-items: end;
-  padding: 9rem clamp(1.5rem, 7vw, 7.5rem) clamp(4.5rem, 8vw, 7rem);
+  align-items: center;
+  padding: 9rem clamp(1.5rem, 7vw, 7.5rem) 6rem;
   overflow: hidden;
-  background-image: var(--hero-image);
-  background-position: center;
+  background-position: center 53%;
   background-size: cover;
 }
 
@@ -53,22 +52,53 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(14, 28, 53, 0.9), rgba(14, 28, 53, 0.52), rgba(14, 28, 53, 0.08)),
-    linear-gradient(to top, rgba(14, 28, 53, 0.72), transparent 45%);
+    linear-gradient(90deg, rgba(14, 28, 53, 0.95) 0%, rgba(14, 28, 53, 0.79) 38%, rgba(14, 28, 53, 0.22) 72%, rgba(14, 28, 53, 0.08) 100%),
+    linear-gradient(to top, rgba(14, 28, 53, 0.5), transparent 42%);
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
   display: grid;
-  gap: 1.35rem;
-  max-width: 1080px;
+  gap: 1.15rem;
+  max-width: 730px;
   color: var(--cream);
 }
 
 .hero-content p {
-  max-width: 720px;
+  max-width: 530px;
   color: rgba(255, 250, 242, 0.82);
+}
+
+.hero-content h1 {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.hero-content h1 em {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.48em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-rule {
+  width: 3.5rem;
+  height: 1px;
+  margin: 0.45rem 0 0.2rem;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.hero-signature {
+  position: absolute;
+  right: clamp(1.5rem, 5vw, 5rem);
+  bottom: 2rem;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .showcase-section,
@@ -176,7 +206,22 @@
   }
 
   .hero-section {
-    min-height: 88vh;
+    min-height: 92svh;
+    align-items: end;
+    padding-bottom: 6.5rem;
+    background-position: 54% center;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(to top, rgba(14, 28, 53, 0.96) 0%, rgba(14, 28, 53, 0.72) 48%, rgba(14, 28, 53, 0.14) 100%),
+      linear-gradient(90deg, rgba(14, 28, 53, 0.35), transparent);
+  }
+
+  .hero-signature {
+    right: auto;
+    left: 1.5rem;
+    bottom: 2rem;
   }
 
   .showcase-section {

@@ -10,13 +10,15 @@ export const siteContent = {
     ],
   },
   hero: {
-    eyebrow: "Family owned | The Woodlands, Texas",
-    title: "Craftsmanship that transforms your space.",
+    eyebrow: "Tile · Granite · Remodeling",
+    lead: "Material precision.",
+    title: "Spaces built to endure.",
     body:
-      "Premium construction and remodeling with deliberate details, enduring materials, and a finish made for the way you live.",
-    primaryAction: { label: "Call for an estimate", href: "tel:+18325625304" },
-    secondaryAction: { label: "Explore our work", href: "#projects" },
-    image: "./assets/hero-kitchen.jpg",
+      "Thoughtful surfaces, exact installation, and enduring craftsmanship for the way you live.",
+    primaryAction: { label: "Request an estimate", href: "tel:+18325625304" },
+    secondaryAction: { label: "View our work", href: "#projects" },
+    image: "./assets/IMG_0638.JPG",
+    signature: "Family owned · The Woodlands, Texas",
   },
   showcase: {
     eyebrow: "Selected work",
@@ -30,7 +32,7 @@ export const siteContent = {
     ],
     projects: [
       {
-        src: "./assets/hero-kitchen.jpg",
+        src: "./assets/IMG_0638.JPG",
         alt: "Custom kitchen with natural stone surfaces and island",
         title: "Statement Stone Kitchen",
         category: "Kitchen remodeling",

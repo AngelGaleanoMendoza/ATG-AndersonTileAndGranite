@@ -13,6 +13,19 @@
   margin-top: 1rem;
 }
 
+.hero-content .eyebrow {
+  width: max-content;
+  padding: 0.42rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.68rem;
+}
+
+.hero-content .action-row {
+  margin-top: 1.25rem;
+}
+
 .button {
   display: inline-flex;
   min-height: 3.25rem;
@@ -32,6 +45,24 @@
 .button.secondary {
   border-color: rgba(255, 250, 242, 0.38);
   color: var(--cream);
+}
+
+.hero-content .button {
+  min-height: 3.1rem;
+  padding: 0 1.45rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.hero-content .button.primary {
+  background: var(--cream);
+  color: var(--charcoal);
+}
+
+.hero-content .button.secondary {
+  background: rgba(14, 28, 53, 0.14);
+  backdrop-filter: blur(8px);
 }
 
 .stat-grid {
