@@ -3,7 +3,6 @@ export const siteContent = {
     brand: "Anderson Tile & Granite",
     logo: "./assets/anderson-logo.jpg",
     links: [
-      { label: "Services", href: "#services" },
       { label: "Projects", href: "#projects" },
       { label: "Process", href: "#process" },
       { label: "Contact", href: "#contact" },
@@ -17,42 +16,6 @@ export const siteContent = {
     primaryAction: { label: "Call for an estimate", href: "tel:+18325625304" },
     secondaryAction: { label: "Explore our work", href: "#projects" },
     image: "./assets/hero-kitchen.jpg",
-  },
-  services: {
-    eyebrow: "Services",
-    title: "Built around material, detail, and daily life.",
-    intro:
-      "From one statement surface to a complete remodel, our work brings precise installation and a cohesive finish to every room.",
-    items: [
-      {
-        title: "Natural Stone & Surfaces",
-        subtitle: "Granite, quartz, porcelain, and custom applications",
-        body:
-          "Clean measurements, careful handling, polished edges, sink cutouts, seams, and final placement for kitchens, bars, vanities, and work surfaces.",
-        image: "./assets/porcelain-fireplace-cropped.png",
-      },
-      {
-        title: "Custom Kitchens",
-        subtitle: "Countertops, backsplashes, islands, and finish work",
-        body:
-          "Porcelain, ceramic, and natural stone tile installation with layout planning, surface prep, waterproofing considerations, and sharp finishing lines.",
-        image: "./assets/quartz-island.jpg",
-      },
-      {
-        title: "Bathroom Remodeling",
-        subtitle: "Showers, floors, surrounds, niches, and vanities",
-        body:
-          "A practical service lane for bathrooms that highlights tile craftsmanship, stone accents, moisture-resistant assemblies, and refined details.",
-        image: "./assets/bathroom-remodel.jpg",
-      },
-      {
-        title: "Construction & Remodeling",
-        subtitle: "New builds, room transformations, and finish upgrades",
-        body:
-          "A place to present backsplash upgrades, cracked tile replacement, grout refreshes, countertop updates, and punch-list work for property owners.",
-        image: "./assets/kitchen-backsplash.jpg",
-      },
-    ],
   },
   showcase: {
     eyebrow: "Selected work",
