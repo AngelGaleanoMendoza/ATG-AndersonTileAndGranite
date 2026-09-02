@@ -21,18 +21,23 @@ export const Testimonials = ({ eyebrow, title, intro, rating, total, sourceHref,
     <div class="reviews-carousel" tabindex="0" aria-label="Customer reviews">
       ${reviews.map((review, index) => `
         <article class="review-card" data-review-slide="${index}">
-          <div class="review-card-top">
-            ${Stars(review.rating)}
-            <span class="review-index">${String(index + 1).padStart(2, "0")}</span>
-          </div>
-          <blockquote>&ldquo;${review.text}&rdquo;</blockquote>
-          <footer>
-            <span class="review-avatar" aria-hidden="true">${review.initials}</span>
-            <div>
-              <strong>${review.author}</strong>
-              <a href="${review.href}" target="_blank" rel="noreferrer">Google review</a>
+          <figure class="review-photo">
+            <img src="${review.image}" alt="${review.imageAlt}" loading="lazy" />
+          </figure>
+          <div class="review-body">
+            <div class="review-card-top">
+              ${Stars(review.rating)}
+              <span class="review-index">${String(index + 1).padStart(2, "0")}</span>
             </div>
-          </footer>
+            <blockquote>&ldquo;${review.text}&rdquo;</blockquote>
+            <footer>
+              <span class="review-avatar" aria-hidden="true">${review.initials}</span>
+              <div>
+                <strong>${review.author}</strong>
+                <a href="${review.href}" target="_blank" rel="noreferrer">Google review</a>
+              </div>
+            </footer>
+          </div>
         </article>
       `).join("")}
     </div>

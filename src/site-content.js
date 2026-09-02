@@ -81,6 +81,8 @@ export const siteContent = {
         author: "Octavio Canahuati",
         initials: "OC",
         rating: 5,
+        image: "./assets/reviews/octavio-kitchen.jpg",
+        imageAlt: "Completed natural stone kitchen project",
         text:
           "I had a great experience with Anderson Tile and Granite. From the beginning, the team was very professional, friendly, and easy to work with. They took the time to understand what I wanted and helped me choose the right materials for my space without rushing me. The communication throughout the project was excellent, and they always kept me updated on the progress. The installation was done with great attention to detail, and you can really see the quality in the final result.",
         href: "https://share.google/K7wQyB2sncYTvr5db",
@@ -89,6 +91,8 @@ export const siteContent = {
         author: "Gabriel Gamez",
         initials: "GG",
         rating: 5,
+        image: "./assets/reviews/gabriel-tilework.jpg",
+        imageAlt: "Finished custom kitchen tilework",
         text:
           "We had a great experience with Anderson Tile & Granite. Their team was professional, communicative, and delivered high-quality work. The craftsmanship and attention to detail really stand out, and the results exceeded our expectations. Highly recommend them for any remodeling or tile project!",
         href: "https://share.google/nRAYx1fixPRvXM3LG",
@@ -97,6 +101,8 @@ export const siteContent = {
         author: "Thomas Van Dorple",
         initials: "TV",
         rating: 5,
+        image: "./assets/reviews/thomas-remodel.jpg",
+        imageAlt: "Completed stone tile bathroom remodel",
         text:
           "Justin was easy to work with and offered competitive pricing for tile installation at my home. His crew was professional and did high-quality work with exceptional attention to detail. As a former builder, I can say his crew is one of the best I've ever seen. I highly recommend Anderson Tile and Granite.",
         href: "https://share.google/IBc96VitOUtz7ZT4K",
@@ -105,6 +111,8 @@ export const siteContent = {
         author: "Google Reviewer",
         initials: "GR",
         rating: 5,
+        image: "./assets/reviews/custom-home.png",
+        imageAlt: "Custom home porcelain fireplace installation",
         text:
           "Anderson Tile and Granite installed all the countertops and tile in our new custom home. Justin and Dom are fantastic and their crews did an outstanding job! I would highly recommend them to anyone performing a remodel of an existing home or new construction. Justin and Dom are highly skilled, always professional, and just a real pleasure to work with.",
         href: "https://share.google/HX8UrhWAr6vRUcNUZ",
@@ -113,6 +121,8 @@ export const siteContent = {
         author: "Mandy Milstead",
         initials: "MM",
         rating: 5,
+        image: "./assets/reviews/mandy-quartz.jpg",
+        imageAlt: "Bright quartz waterfall kitchen island",
         text:
           "Highly recommend, very professional and clean. We had marble originally put in our kitchen by another company without knowing marble shouldn't be in a kitchen and Anderson got us all fixed up with brand new quartz. I was a little worried bc I loved the marble we had originally chosen but I am happier now with our quartz that is shiny! They were in and out in 2 days and kept dust at a minimum, covered all our floors in the process.",
         href: "https://share.google/s1lJ9dsAW76b4Zuy1",
@@ -121,6 +131,8 @@ export const siteContent = {
         author: "Denise M",
         initials: "DM",
         rating: 5,
+        image: "./assets/reviews/denise-bathroom.jpg",
+        imageAlt: "Black and white custom tiled shower",
         text:
           "I would highly recommend Justin and Anderson Tile and Granite. He is the BEST! A customer can easily evaluate the integrity of a person and business, especially after a problem has occurred. Justin's response was exemplary.",
         href: "https://share.google/FGSl5N6RrylVasnZI",
@@ -129,6 +141,8 @@ export const siteContent = {
         author: "Sebastian Galeano",
         initials: "SG",
         rating: 5,
+        image: "./assets/reviews/sebastian-remodel.jpg",
+        imageAlt: "Completed contemporary fireplace remodel",
         text:
           "They remodeled my bathroom and it turned out so impeccably and excellently. I love their work and professionalism. They have an excellent team and layout!",
         href: "https://share.google/bP3lo29qpjbgfiO35",
