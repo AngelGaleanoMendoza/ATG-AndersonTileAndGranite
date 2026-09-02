@@ -29,7 +29,7 @@ export const siteContent = {
         subtitle: "Granite, quartz, porcelain, and custom applications",
         body:
           "Clean measurements, careful handling, polished edges, sink cutouts, seams, and final placement for kitchens, bars, vanities, and work surfaces.",
-        image: "./assets/porcelain-fireplace.png",
+        image: "./assets/porcelain-fireplace-cropped.png",
       },
       {
         title: "Custom Kitchens",
@@ -64,10 +64,43 @@ export const siteContent = {
       ["Full service", "Remodels, new builds, and finish work"],
       ["Specialists", "Tile, granite, quartz, and porcelain"],
     ],
-    images: [
-      { src: "./assets/tile-shower.jpg", alt: "Custom black and white tile shower" },
-      { src: "./assets/fireplace-remodel.jpg", alt: "Finished living room fireplace remodel" },
-      { src: "./assets/kitchen-backsplash.jpg", alt: "Custom kitchen backsplash and range wall" },
+    projects: [
+      {
+        src: "./assets/porcelain-fireplace-cropped.png",
+        alt: "Full porcelain slab fireplace installation",
+        title: "Bookmatched Porcelain Fireplace",
+        category: "Porcelain slab installation",
+      },
+      {
+        src: "./assets/quartz-island.jpg",
+        alt: "Waterfall quartz kitchen island",
+        title: "Waterfall Kitchen Island",
+        category: "Quartz surfaces",
+      },
+      {
+        src: "./assets/tile-shower.jpg",
+        alt: "Custom black and white tile shower",
+        title: "Herringbone Walk-In Shower",
+        category: "Custom tilework",
+      },
+      {
+        src: "./assets/bathroom-remodel.jpg",
+        alt: "Stone tile bathroom remodel",
+        title: "Natural Stone Bath",
+        category: "Full bathroom remodel",
+      },
+      {
+        src: "./assets/kitchen-backsplash.jpg",
+        alt: "Custom kitchen backsplash and range wall",
+        title: "Tailored Kitchen Backsplash",
+        category: "Tile and finish work",
+      },
+      {
+        src: "./assets/fireplace-remodel.jpg",
+        alt: "Finished living room fireplace remodel",
+        title: "Modern Fireplace Surround",
+        category: "Interior remodeling",
+      },
     ],
   },
   process: {
