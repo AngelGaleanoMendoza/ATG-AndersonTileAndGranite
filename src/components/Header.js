@@ -1,7 +1,7 @@
-export const Header = ({ brand, links }) => `
+export const Header = ({ brand, logo, links }) => `
   <header class="site-header">
     <a class="brand-mark" href="#top" aria-label="${brand} home">
-      <span class="brand-stone">ATG</span>
+      <img src="${logo}" alt="" />
       <span>${brand}</span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation">

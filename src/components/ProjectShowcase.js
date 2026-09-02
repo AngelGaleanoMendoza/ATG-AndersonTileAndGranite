@@ -1,4 +1,4 @@
-export const ProjectShowcase = ({ eyebrow, title, body, stats }) => `
+export const ProjectShowcase = ({ eyebrow, title, body, stats, images }) => `
   <section class="showcase-section" id="projects">
     <div class="showcase-copy">
       <p class="eyebrow">${eyebrow}</p>
@@ -16,6 +16,9 @@ export const ProjectShowcase = ({ eyebrow, title, body, stats }) => `
           `
         )
         .join("")}
+    </div>
+    <div class="project-gallery">
+      ${images.map((image) => `<figure><img src="${image.src}" alt="${image.alt}" loading="lazy" /></figure>`).join("")}
     </div>
   </section>
 `;

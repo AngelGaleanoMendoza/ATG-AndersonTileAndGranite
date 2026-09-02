@@ -11,7 +11,7 @@ export const StickyCards = ({ eyebrow, title, intro, items }) => `
           (item, index) => `
             <article class="service-card" style="--card-index: ${index}">
               <figure>
-                <img src="${item.image}" alt="${item.title}" />
+                <img src="${item.image}" alt="${item.title}" loading="lazy" />
               </figure>
               <div class="service-card-content">
                 <span>0${index + 1}</span>

@@ -26,7 +26,7 @@
 
 .button.primary {
   background: var(--copper);
-  color: #fff;
+  color: var(--ink);
 }
 
 .button.secondary {
@@ -127,17 +127,48 @@
 }
 
 .contact-band {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr) auto;
+  align-items: end;
   gap: 2rem;
-  background: var(--stone);
+  background: var(--paper);
+  border-top: 6px solid var(--copper);
 }
 
-.contact-band div {
+.contact-copy {
   display: grid;
   gap: 0.75rem;
   max-width: 720px;
+}
+
+.contact-details {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-details a:not(.text-link) {
+  display: grid;
+  gap: 0.15rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-details span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.contact-details strong {
+  overflow-wrap: anywhere;
+}
+
+.text-link {
+  width: max-content;
+  color: var(--charcoal);
+  border-bottom: 2px solid var(--copper);
+  font-weight: 800;
 }
 
 .contact-band .button {
@@ -157,7 +188,7 @@
   }
 
   .contact-band {
+    grid-template-columns: 1fr;
     align-items: flex-start;
-    flex-direction: column;
   }
 }

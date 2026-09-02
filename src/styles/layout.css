@@ -10,7 +10,7 @@
   gap: 1rem;
   padding: 1rem clamp(1rem, 4vw, 3rem);
   color: var(--cream);
-  background: linear-gradient(to bottom, rgba(22, 21, 20, 0.74), rgba(22, 21, 20, 0));
+  background: linear-gradient(to bottom, rgba(14, 28, 53, 0.9), rgba(14, 28, 53, 0));
 }
 
 .brand-mark,
@@ -24,14 +24,11 @@
   font-weight: 800;
 }
 
-.brand-stone {
-  display: grid;
-  width: 3rem;
-  aspect-ratio: 1;
-  place-items: center;
-  border: 1px solid rgba(255, 250, 242, 0.38);
-  background: rgba(255, 250, 242, 0.12);
-  font-size: 0.78rem;
+.brand-mark img {
+  width: 3.6rem;
+  height: 3.6rem;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .nav-links a {
@@ -55,8 +52,8 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(15, 14, 13, 0.84), rgba(15, 14, 13, 0.42), rgba(15, 14, 13, 0.16)),
-    linear-gradient(to top, rgba(15, 14, 13, 0.72), transparent 45%);
+    linear-gradient(90deg, rgba(14, 28, 53, 0.9), rgba(14, 28, 53, 0.52), rgba(14, 28, 53, 0.08)),
+    linear-gradient(to top, rgba(14, 28, 53, 0.72), transparent 45%);
 }
 
 .hero-content {
@@ -104,6 +101,23 @@
   color: var(--cream);
 }
 
+.project-gallery {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr 1fr;
+  gap: 0.8rem;
+}
+
+.project-gallery figure {
+  min-height: 420px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.project-gallery figure:nth-child(2) {
+  transform: translateY(2rem);
+}
+
 .showcase-copy {
   display: grid;
   gap: 1rem;
@@ -119,8 +133,19 @@
 }
 
 .site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
   padding: 2rem clamp(1.2rem, 5vw, 5rem);
   background: var(--charcoal);
+}
+
+.site-footer img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .site-footer p {
@@ -142,5 +167,20 @@
 
   .showcase-section {
     grid-template-columns: 1fr;
+  }
+
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .project-gallery figure,
+  .project-gallery figure:nth-child(2) {
+    min-height: 360px;
+    transform: none;
+  }
+
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }

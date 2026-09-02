@@ -1,6 +1,7 @@
 export const siteContent = {
   navigation: {
     brand: "Anderson Tile & Granite",
+    logo: "./assets/anderson-logo.jpg",
     links: [
       { label: "Services", href: "#services" },
       { label: "Projects", href: "#projects" },
@@ -9,64 +10,64 @@ export const siteContent = {
     ],
   },
   hero: {
-    eyebrow: "Custom stone and tile installation",
-    title: "Precision surfaces for kitchens, baths, and commercial spaces.",
+    eyebrow: "Family owned | The Woodlands, Texas",
+    title: "Craftsmanship that transforms your space.",
     body:
-      "A focused first version for Anderson Tile and Granite: elegant scroll, premium material cues, and a component system ready for real photos, logo, reviews, and project galleries.",
-    primaryAction: { label: "Request an estimate", href: "#contact" },
-    secondaryAction: { label: "View services", href: "#services" },
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=82",
+      "Premium construction and remodeling with deliberate details, enduring materials, and a finish made for the way you live.",
+    primaryAction: { label: "Call for an estimate", href: "tel:+18325625304" },
+    secondaryAction: { label: "Explore our work", href: "#projects" },
+    image: "./assets/hero-kitchen.jpg",
   },
   services: {
     eyebrow: "Services",
-    title: "A scrolling service story built from reusable cards.",
+    title: "Built around material, detail, and daily life.",
     intro:
-      "The stacked-card section adapts the reference interaction into a contractor site: each card can later receive real job photos, pricing notes, warranty details, and calls to action.",
+      "From one statement surface to a complete remodel, our work brings precise installation and a cohesive finish to every room.",
     items: [
       {
-        title: "Granite and Quartz Countertops",
-        subtitle: "Template, fabrication coordination, and installation",
+        title: "Natural Stone & Surfaces",
+        subtitle: "Granite, quartz, porcelain, and custom applications",
         body:
           "Clean measurements, careful handling, polished edges, sink cutouts, seams, and final placement for kitchens, bars, vanities, and work surfaces.",
-        image:
-          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=82",
+        image: "./assets/porcelain-fireplace.png",
       },
       {
-        title: "Tile Floors and Walls",
-        subtitle: "Durable layouts for daily-use spaces",
+        title: "Custom Kitchens",
+        subtitle: "Countertops, backsplashes, islands, and finish work",
         body:
           "Porcelain, ceramic, and natural stone tile installation with layout planning, surface prep, waterproofing considerations, and sharp finishing lines.",
-        image:
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=82",
+        image: "./assets/quartz-island.jpg",
       },
       {
-        title: "Bathroom Remodel Surfaces",
-        subtitle: "Showers, surrounds, niches, and vanities",
+        title: "Bathroom Remodeling",
+        subtitle: "Showers, floors, surrounds, niches, and vanities",
         body:
           "A practical service lane for bathrooms that highlights tile craftsmanship, stone accents, moisture-resistant assemblies, and refined details.",
-        image:
-          "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=82",
+        image: "./assets/bathroom-remodel.jpg",
       },
       {
-        title: "Repair and Refresh Work",
-        subtitle: "Targeted fixes with a clean finish",
+        title: "Construction & Remodeling",
+        subtitle: "New builds, room transformations, and finish upgrades",
         body:
           "A place to present backsplash upgrades, cracked tile replacement, grout refreshes, countertop updates, and punch-list work for property owners.",
-        image:
-          "https://images.unsplash.com/photo-1595514535415-dae5490d9f3b?auto=format&fit=crop&w=1200&q=82",
+        image: "./assets/kitchen-backsplash.jpg",
       },
     ],
   },
   showcase: {
-    eyebrow: "Project Direction",
-    title: "Premium, grounded, and built around the craft.",
+    eyebrow: "Selected work",
+    title: "Real spaces. Refined execution.",
     body:
-      "The visual system uses stone neutrals, deep charcoal, warm metal accents, and large photographic surfaces. Once your logo and job images arrive, they can drop into these components without changing the architecture.",
+      "Every project is shaped by its material, proportion, and purpose. These are a few of the spaces completed by the Anderson team.",
     stats: [
-      ["Residential", "Kitchens, baths, floors"],
-      ["Commercial", "Tenant spaces and counters"],
-      ["Materials", "Tile, granite, quartz, stone"],
+      ["Family owned", "Local care and direct communication"],
+      ["Full service", "Remodels, new builds, and finish work"],
+      ["Specialists", "Tile, granite, quartz, and porcelain"],
+    ],
+    images: [
+      { src: "./assets/tile-shower.jpg", alt: "Custom black and white tile shower" },
+      { src: "./assets/fireplace-remodel.jpg", alt: "Finished living room fireplace remodel" },
+      { src: "./assets/kitchen-backsplash.jpg", alt: "Custom kitchen backsplash and range wall" },
     ],
   },
   process: {
@@ -79,12 +80,21 @@ export const siteContent = {
     ],
   },
   contact: {
-    title: "Ready for the real brand layer.",
+    eyebrow: "Start your project",
+    title: "Tell us what you are ready to transform.",
     body:
-      "Next we can add the logo, actual project photos, phone number, service area, Google review highlights, and a quote form.",
-    cta: "Start estimate",
+      "Contact our team for a project consultation in The Woodlands and surrounding Texas communities.",
+    phone: "+1 832-562-5304",
+    phoneHref: "tel:+18325625304",
+    email: "justin@andersontileandgranite.com",
+    emailHref: "mailto:justin@andersontileandgranite.com",
+    location: "The Woodlands, TX, United States",
+    mapHref: "https://www.google.com/maps/place/Anderson+Tile+and+Granite/@30.2408034,-95.8196683,17z",
+    instagramHref: "https://www.instagram.com/andersontileandgranite/",
+    cta: "Call now",
   },
   footer: {
-    text: "Anderson Tile and Granite - Waller / Magnolia area, Texas",
+    text: "Anderson Tile and Granite | The Woodlands, Texas",
+    logo: "./assets/anderson-logo.jpg",
   },
 };
