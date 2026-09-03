@@ -1,0 +1,21 @@
+{
+  "name": "Anderson Premium Construction And Remodeling",
+  "short_name": "Anderson Premium",
+  "description": "Premium construction, remodeling, tile, and stone craftsmanship in The Woodlands, Texas.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0E2041",
+  "icons": [
+    {
+      "src": "./assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
