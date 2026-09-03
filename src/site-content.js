@@ -5,6 +5,7 @@ export const siteContent = {
     links: [
       { label: "Projects", href: "#projects" },
       { label: "Reviews", href: "#reviews" },
+      { label: "About", href: "#about" },
       { label: "Process", href: "#process" },
       { label: "Contact", href: "#contact" },
     ],
@@ -163,6 +164,52 @@ export const siteContent = {
         href: "https://share.google/bP3lo29qpjbgfiO35",
       },
     ],
+  },
+  philosophy: {
+    eyebrow: "Mission & Vision",
+    title: "Craftsmanship, integrity, and the long view.",
+    panels: [
+      {
+        label: "Mission",
+        lead:
+          "At Anderson Tile & Granite, our mission is to elevate homes through exceptional craftsmanship, thoughtful design, and a commitment to quality that can be seen and felt in every detail.",
+        paragraphs: [
+          "We specialize in high-end residential construction and remodeling, creating refined, functional spaces tailored to each client's lifestyle and vision. From custom kitchens and bathrooms to flooring, stonework, interior renovations, and complete home transformations, every project is approached with precision, integrity, and meticulous attention to detail.",
+          "As a family-owned company, we believe that exceptional results begin with trust. Our goal is to provide every client with a seamless, personalized experience built on clear communication, dependable service, premium materials, and craftsmanship designed to stand the test of time.",
+        ],
+      },
+      {
+        label: "Vision",
+        lead:
+          "Our vision is to establish Anderson Tile & Granite as one of Greater Houston's most trusted and distinguished names in luxury residential construction and remodeling.",
+        paragraphs: [
+          "We aim to set a higher standard for the remodeling experience by combining timeless craftsmanship, modern design, premium finishes, and personalized service. Our goal is not simply to renovate homes, but to create sophisticated spaces that enhance everyday living, reflect the personality of each homeowner, and increase the beauty and long-term value of every property we touch.",
+          "Through continued excellence, innovation, and an unwavering commitment to our clients, we strive to build a legacy recognized for quality, integrity, and extraordinary transformations.",
+        ],
+      },
+    ],
+  },
+  founder: {
+    eyebrow: "Leadership",
+    title: "The name behind the work.",
+    intro:
+      "More than a company, a family project built on the belief that a home deserves to be finished by the people who answer for it.",
+    portrait: "./assets/justin-anderson.jpg",
+    portraitAlt: "Justin Anderson, Owner of Anderson Tile and Granite",
+    name: "Justin Anderson",
+    role: "Owner",
+    quote:
+      "Every home we work in belongs to someone. That is why we treat the details like they are ours.",
+    paragraphs: [
+      "Justin leads Anderson Tile & Granite with a hands-on approach to every project the team takes on, from the first walkthrough to the final polish. Materials, measurements, edge details, and finish work are reviewed directly, because that is where the difference between a good install and a lasting one is decided.",
+      "Clients work with the owner, not a call center. That direct line is what keeps timelines clear, expectations honest, and the finished space true to what was promised at the start.",
+    ],
+    highlights: [
+      ["Family owned", "Direct, personal communication"],
+      ["On-site leadership", "Involved through every phase"],
+      ["The Woodlands, TX", "Serving Greater Houston"],
+    ],
+    action: { label: "Contact Justin", href: "mailto:justin@andersontileandgranite.com" },
   },
   process: {
     eyebrow: "Process",
