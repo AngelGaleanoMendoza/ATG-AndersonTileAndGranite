@@ -10,7 +10,7 @@
   gap: 1rem;
   padding: 1.15rem clamp(1.25rem, 5vw, 5rem);
   color: var(--cream);
-  background: linear-gradient(to bottom, rgba(14, 28, 53, 0.9), rgba(14, 28, 53, 0));
+  background: linear-gradient(to bottom, rgba(10, 21, 38, 0.94), rgba(10, 21, 38, 0));
 }
 
 .brand-mark,
@@ -32,7 +32,7 @@
 }
 
 .nav-links a {
-  color: rgba(255, 250, 242, 0.82);
+  color: rgba(247, 244, 238, 0.82);
   font-size: 0.8rem;
   font-weight: 500;
 }
@@ -52,8 +52,8 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(14, 28, 53, 0.95) 0%, rgba(14, 28, 53, 0.79) 38%, rgba(14, 28, 53, 0.22) 72%, rgba(14, 28, 53, 0.08) 100%),
-    linear-gradient(to top, rgba(14, 28, 53, 0.5), transparent 42%);
+    linear-gradient(90deg, rgba(10, 21, 38, 0.97) 0%, rgba(10, 21, 38, 0.86) 38%, rgba(10, 21, 38, 0.34) 72%, rgba(10, 21, 38, 0.18) 100%),
+    linear-gradient(to top, rgba(10, 21, 38, 0.60), transparent 42%);
 }
 
 .hero-content {
@@ -67,7 +67,7 @@
 
 .hero-content p {
   max-width: 530px;
-  color: rgba(255, 250, 242, 0.82);
+  color: rgba(247, 244, 238, 0.82);
 }
 
 .hero-content h1 {
@@ -76,7 +76,7 @@
 }
 
 .hero-content h1 em {
-  color: rgba(255, 255, 255, 0.62);
+  color: rgba(247, 244, 238, 0.60);
   font-size: 0.48em;
   font-weight: 600;
   line-height: 1.2;
@@ -86,7 +86,7 @@
   width: 3.5rem;
   height: 1px;
   margin: 0.45rem 0 0.2rem;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(247, 244, 238, 0.5);
 }
 
 .hero-signature {
@@ -94,7 +94,7 @@
   right: clamp(1.5rem, 5vw, 5rem);
   bottom: 2rem;
   z-index: 1;
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(247, 244, 238, 0.70);
   font-size: 0.68rem;
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -130,7 +130,7 @@
   display: grid;
   gap: clamp(3rem, 6vw, 5.5rem);
   overflow: hidden;
-  background: #fffefa;
+  background: var(--surface);
   color: var(--charcoal);
 }
 
@@ -184,8 +184,12 @@
   color: var(--cream);
 }
 
+.philosophy-section .eyebrow {
+  color: var(--brass-light);
+}
+
 .philosophy-section .section-heading p:not(.eyebrow) {
-  color: rgba(255, 250, 242, 0.72);
+  color: rgba(247, 244, 238, 0.72);
 }
 
 .philosophy-grid {
@@ -223,7 +227,7 @@
 }
 
 .site-footer p {
-  color: rgba(255, 250, 242, 0.72);
+  color: rgba(247, 244, 238, 0.72);
 }
 
 @media (max-width: 760px) {
@@ -244,8 +248,8 @@
 
   .hero-shade {
     background:
-      linear-gradient(to top, rgba(14, 28, 53, 0.96) 0%, rgba(14, 28, 53, 0.72) 48%, rgba(14, 28, 53, 0.14) 100%),
-      linear-gradient(90deg, rgba(14, 28, 53, 0.35), transparent);
+      linear-gradient(to top, rgba(10, 21, 38, 0.97) 0%, rgba(10, 21, 38, 0.82) 48%, rgba(10, 21, 38, 0.26) 100%),
+      linear-gradient(90deg, rgba(10, 21, 38, 0.45), transparent);
   }
 
   .hero-signature {

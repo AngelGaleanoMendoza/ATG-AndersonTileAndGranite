@@ -1,14 +1,16 @@
 :root {
   color-scheme: light;
-  --ink: #0e1c35;
-  --muted: #5f6877;
-  --paper: #f6f7f5;
-  --stone: #a6aaaf;
-  --charcoal: #0e2041;
-  --copper: #72c951;
-  --cream: #ffffff;
-  --line: rgba(14, 32, 65, 0.14);
-  --shadow: 0 24px 70px rgba(14, 32, 65, 0.17);
+  --ink: #0a1526;
+  --muted: #4c5464;
+  --paper: #eceae4;
+  --surface: #f5f2ec;
+  --stone: #8d9199;
+  --charcoal: #0a1830;
+  --brass: #836237;
+  --brass-light: #c9a86a;
+  --cream: #f7f4ee;
+  --line: rgba(10, 24, 48, 0.16);
+  --shadow: 0 24px 70px rgba(10, 21, 38, 0.24);
   --display: "Playfair Display", Georgia, serif;
   --sans: "Poppins", Arial, sans-serif;
   font-family: var(--sans);
