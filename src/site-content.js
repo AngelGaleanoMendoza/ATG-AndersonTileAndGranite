@@ -4,6 +4,7 @@ export const siteContent = {
     logo: "./assets/anderson-logo.jpg",
     links: [
       { label: "Projects", href: "#projects" },
+      { label: "Portfolio", href: "#portfolio" },
       { label: "Reviews", href: "#reviews" },
       { label: "About", href: "#about" },
       { label: "Process", href: "#process" },
@@ -17,9 +18,24 @@ export const siteContent = {
     body:
       "Thoughtful surfaces, exact installation, and enduring craftsmanship for the way you live.",
     primaryAction: { label: "Request an estimate", href: "tel:+18325625304" },
-    secondaryAction: { label: "View our work", href: "#projects" },
-    image: "./assets/IMG_0638.JPG",
+    secondaryAction: { label: "View our work", href: "#portfolio" },
+    image: "./assets/catalog/full/654A9257.jpg",
     signature: "Family owned · The Woodlands, Texas",
+  },
+  catalogSearch: {
+    rating: "4.8",
+    reviews: "58 Google reviews",
+    highlights: ["Family owned & operated", "Owner on every project", "Remodels, new builds & finish work"],
+  },
+  portfolio: {
+    browse: {
+      eyebrow: "Browse by space",
+      title: "Every room we finish, organized.",
+    },
+    gallery: {
+      eyebrow: "Portfolio",
+      title: "The full portfolio",
+    },
   },
   showcase: {
     eyebrow: "Selected work",
@@ -218,6 +234,12 @@ export const siteContent = {
       "Scope the room, surfaces, materials, timeline, and access needs.",
       "Confirm measurements, edge details, pattern direction, and installation plan.",
       "Prepare the site, install with care, clean the work area, and review the finish.",
+    ],
+    photos: [
+      { src: "./assets/catalog/full/67157098842__D696B08A-B36F-4BA8-96A5-D7B7426F984C.jpg", alt: "Anderson truck loading a stone slab at the shop" },
+      { src: "./assets/catalog/full/74138563319__29DD02F1-D2E1-45E5-AC53-8B1654C9FFB1.jpg", alt: "Stone fabrication shop with forklift" },
+      { src: "./assets/catalog/full/IMG_2289.jpg", alt: "Crew finishing a granite countertop" },
+      { src: "./assets/catalog/full/IMG_3803.jpg", alt: "Bridge saw used to cut stone slabs" },
     ],
   },
   contact: {
