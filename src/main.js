@@ -1,6 +1,7 @@
 import { siteContent } from "./site-content.js";
 import { catalog } from "./catalog-data.js";
 import { initCatalog } from "./catalog.js";
+import { initQuoteForm } from "./quote.js";
 import { Header } from "./components/Header.js";
 import { Hero } from "./components/Hero.js";
 import { CatalogSearch } from "./components/CatalogSearch.js";
@@ -17,17 +18,23 @@ const App = () => `
   ${Header(siteContent.navigation)}
   <main>
     ${Hero(siteContent.hero, catalog.categories)}
-    ${CatalogSearch({ ...siteContent.catalogSearch, categories: catalog.categories, total: catalog.items.length })}
+    ${CatalogSearch({
+      ...siteContent.catalogSearch,
+      serviceAreas: siteContent.serviceAreas,
+      categories: catalog.categories,
+      total: catalog.items.length,
+    })}
+    ${Testimonials(siteContent.testimonials)}
     ${ProjectShowcase(siteContent.showcase)}
     ${Portfolio(siteContent.portfolio, catalog)}
-    ${Testimonials(siteContent.testimonials)}
     ${Philosophy(siteContent.philosophy)}
     ${Founder(siteContent.founder)}
     ${Process(siteContent.process)}
-    ${ContactBand(siteContent.contact)}
+    ${ContactBand(siteContent.contact, siteContent.serviceAreas)}
   </main>
   ${Footer(siteContent.footer)}
 `;
 
 document.querySelector("#app").innerHTML = App();
 initCatalog(catalog);
+initQuoteForm();

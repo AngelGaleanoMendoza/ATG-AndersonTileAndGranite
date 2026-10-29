@@ -8,7 +8,7 @@ export const siteContent = {
       { label: "Reviews", href: "#reviews" },
       { label: "About", href: "#about" },
       { label: "Process", href: "#process" },
-      { label: "Contact", href: "#contact" },
+      { label: "Get a quote", href: "#contact" },
     ],
   },
   hero: {
@@ -17,14 +17,15 @@ export const siteContent = {
     title: "Spaces built to endure.",
     body:
       "Thoughtful surfaces, exact installation, and enduring craftsmanship for the way you live.",
-    primaryAction: { label: "Request an estimate", href: "tel:+18325625304" },
+    primaryAction: { label: "Get a personalized quote", href: "#contact" },
     secondaryAction: { label: "View our work", href: "#portfolio" },
     image: "./assets/catalog/full/654A9257.jpg",
     signature: "Family owned · The Woodlands, Texas",
   },
+  serviceAreas: ["The Woodlands", "Spring", "Magnolia", "Tomball", "Conroe", "Montgomery"],
   catalogSearch: {
     rating: "4.8",
-    reviews: "58 Google reviews",
+    reviews: "Google reviews",
     highlights: ["Family owned & operated", "Owner on every project", "Remodels, new builds & finish work"],
   },
   portfolio: {
@@ -105,7 +106,7 @@ export const siteContent = {
     intro:
       "Homeowners consistently highlight the Anderson team's craftsmanship, communication, cleanliness, and attention to detail.",
     rating: "4.8",
-    total: "58 Google reviews",
+    total: "Google reviews",
     sourceHref:
       "https://www.google.com/search?q=anderson+tile+and+granite#lrd=0x8646db1b170956a1:0xab42c1f778ba7e56,1,,,,",
     reviews: [
@@ -243,10 +244,23 @@ export const siteContent = {
     ],
   },
   contact: {
-    eyebrow: "Start your project",
+    eyebrow: "Get a personalized quote",
     title: "Tell us what you are ready to transform.",
     body:
-      "Contact our team for a project consultation in The Woodlands and surrounding Texas communities.",
+      "Share a few details about your project and Justin will get back to you with a personalized quote. Prefer to talk? Call us directly.",
+    formEndpoint: "https://formsubmit.co/ajax/justin@andersontileandgranite.com",
+    formFallback: "https://formsubmit.co/justin@andersontileandgranite.com",
+    services: [
+      "Kitchen remodel",
+      "Bathroom remodel",
+      "Countertops (granite, quartz, porcelain)",
+      "Flooring",
+      "Fireplace or feature wall",
+      "Outdoor living / patio",
+      "New construction",
+      "Other",
+    ],
+    contactMethods: ["Phone call", "Text message", "Email"],
     phone: "+1 832-562-5304",
     phoneHref: "tel:+18325625304",
     email: "justin@andersontileandgranite.com",

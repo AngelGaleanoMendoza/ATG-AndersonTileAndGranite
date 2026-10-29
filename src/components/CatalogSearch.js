@@ -1,4 +1,4 @@
-export const CatalogSearch = ({ categories, total, rating, reviews, highlights }) => `
+export const CatalogSearch = ({ categories, total, rating, reviews, highlights, serviceAreas }) => `
   <div class="catalog-search-wrap">
     <form class="catalog-search" data-catalog-search>
       <div class="catalog-field">
@@ -12,14 +12,14 @@ export const CatalogSearch = ({ categories, total, rating, reviews, highlights }
         <span>Specialties</span>
         <strong>Tile · Granite · Quartz · Porcelain</strong>
       </div>
-      <div class="catalog-field">
+      <div class="catalog-field catalog-field--areas">
         <span>Service area</span>
-        <strong>Greater Houston, Texas</strong>
+        <strong>${serviceAreas.join(", ")} &amp; surrounding areas, Texas</strong>
       </div>
       <button class="catalog-search-button" type="submit" data-search-label>Explore ${total} items</button>
     </form>
     <ul class="trust-row">
-      <li><strong>${rating}</strong><span class="trust-stars" aria-hidden="true">★★★★★</span>${reviews}</li>
+      <li><a class="trust-rating" href="#reviews"><strong>${rating}</strong><span class="trust-stars" aria-label="5 out of 5 stars">★★★★★</span>${reviews}</a></li>
       ${highlights.map((item) => `<li>${item}</li>`).join("")}
     </ul>
   </div>
