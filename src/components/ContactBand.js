@@ -1,4 +1,4 @@
-export const ContactBand = (contact, serviceAreas) => `
+export const ContactBand = (contact, serviceAreas, owner) => `
   <section class="contact-band quote-section" id="contact">
     <div class="quote-intro">
       <div class="contact-copy">
@@ -6,15 +6,32 @@ export const ContactBand = (contact, serviceAreas) => `
         <h2>${contact.title}</h2>
         <p>${contact.body}</p>
       </div>
+      <div class="quote-owner">
+        <img src="${owner.portrait}" alt="${owner.portraitAlt}" loading="lazy" />
+        <div>
+          <strong>${owner.name}</strong>
+          <span>${contact.ownerNote}</span>
+        </div>
+      </div>
       <a class="button primary quote-call" href="${contact.phoneHref}">${contact.cta} · ${contact.phone}</a>
       <div class="contact-details">
-        <a href="${contact.emailHref}"><span>Email</span><strong>${contact.email}</strong></a>
+        <a href="${contact.smsHref}"><span>Text Justin</span><strong>${contact.phone}</strong></a>
+        <a href="${contact.emailHref}"><span>Email Justin</span><strong>${contact.email}</strong></a>
         <a href="${contact.mapHref}" target="_blank" rel="noreferrer"><span>Location</span><strong>${contact.location}</strong></a>
         <a class="text-link" href="${contact.instagramHref}" target="_blank" rel="noreferrer">View Instagram</a>
       </div>
     </div>
 
-    <form class="quote-form" action="${contact.formFallback}" method="POST" data-quote-form data-endpoint="${contact.formEndpoint}">
+    <form
+      class="quote-form"
+      action="${contact.formFallback}"
+      method="POST"
+      data-quote-form
+      data-endpoint="${contact.formEndpoint}"
+      data-sms="${contact.smsHref}"
+      data-email="${contact.email}"
+      data-phone="${contact.phone}"
+    >
       <input type="hidden" name="_subject" value="New quote request · andersontileandgranite.com" />
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_next" value="https://andersontileandgranite.com/?quote=sent#contact" />
@@ -66,6 +83,10 @@ export const ContactBand = (contact, serviceAreas) => `
 
       <button class="button primary quote-submit" type="submit" data-quote-submit>Get my personalized quote</button>
       <p class="quote-status" data-quote-status role="status" aria-live="polite"></p>
+      <div class="quote-fallback" data-quote-fallback hidden>
+        <a class="button primary" data-quote-fallback-sms>Text my request to Justin</a>
+        <a class="button quote-fallback-mail" data-quote-fallback-mail>Email my request to Justin</a>
+      </div>
     </form>
   </section>
 `;

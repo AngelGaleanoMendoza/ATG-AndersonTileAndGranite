@@ -247,7 +247,8 @@ export const siteContent = {
     eyebrow: "Get a personalized quote",
     title: "Tell us what you are ready to transform.",
     body:
-      "Share a few details about your project and Justin will get back to you with a personalized quote. Prefer to talk? Call us directly.",
+      "Share a few details about your project and Justin Anderson, the owner, will personally get back to you with a personalized quote. Prefer to talk? Call or text Justin directly.",
+    ownerNote: "Owner · reviews every quote personally",
     formEndpoint: "https://formsubmit.co/ajax/justin@andersontileandgranite.com",
     formFallback: "https://formsubmit.co/justin@andersontileandgranite.com",
     services: [
@@ -263,12 +264,13 @@ export const siteContent = {
     contactMethods: ["Phone call", "Text message", "Email"],
     phone: "+1 832-562-5304",
     phoneHref: "tel:+18325625304",
+    smsHref: "sms:+18325625304",
     email: "justin@andersontileandgranite.com",
     emailHref: "mailto:justin@andersontileandgranite.com",
     location: "The Woodlands, TX, United States",
     mapHref: "https://www.google.com/maps/place/Anderson+Tile+and+Granite/@30.2408034,-95.8196683,17z",
     instagramHref: "https://www.instagram.com/andersontileandgranite/",
-    cta: "Call now",
+    cta: "Call Justin",
   },
   footer: {
     text: "Anderson Premium Construction And Remodeling | The Woodlands, Texas",

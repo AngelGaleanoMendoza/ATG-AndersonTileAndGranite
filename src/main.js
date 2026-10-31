@@ -30,7 +30,7 @@ const App = () => `
     ${Philosophy(siteContent.philosophy)}
     ${Founder(siteContent.founder)}
     ${Process(siteContent.process)}
-    ${ContactBand(siteContent.contact, siteContent.serviceAreas)}
+    ${ContactBand(siteContent.contact, siteContent.serviceAreas, siteContent.founder)}
   </main>
   ${Footer(siteContent.footer)}
 `;
